@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d198326957ea148a48db23ec0eed12, type: 3}
+  m_Name: LevelsConfig
+  m_EditorClassIdentifier: Assembly-CSharp::LevelsConfig
+  _sceneForMode: {fileID: 102900000, guid: 71e9395805d9d984595d4ce258b74274, type: 3}
+  LevelConfigs:
+  - Seconds: 0
+    _elementsContainer: {fileID: 1356856560049440240, guid: adeb5b0fbbf4617448d2c3f150873d79, type: 3}
+    LevelId: FirstLevel
+    CountElementsToFindTogether: 3
+    elementConfigs:
+    - _id: jumpingRope
+      _isEnableElement: 1
+      _position: {x: -2.2700005, y: 2.5249999}
+    - _id: note
+      _isEnableElement: 1
+      _position: {x: -3.4800005, y: 3.645}
+    - _id: marmalade
+      _isEnableElement: 1
+      _position: {x: 5.129999, y: 3.2849998}
+    - _id: video
+      _isEnableElement: 1
+      _position: {x: 5.379999, y: 7.2949996}
+    - _id: candelabrum
+      _isEnableElement: 1
+      _position: {x: -2.9900007, y: 7.19}
+    - _id: rollers
+      _isEnableElement: 0
+      _position: {x: 4.574999, y: 4.49}
+  - Seconds: 120
+    _elementsContainer: {fileID: 1356856560049440240, guid: adeb5b0fbbf4617448d2c3f150873d79, type: 3}
+    LevelId: SecondLevel
+    CountElementsToFindTogether: 2
+    elementConfigs:
+    - _id: jumpingRope
+      _isEnableElement: 0
+      _position: {x: -2.2700005, y: 2.5249999}
+    - _id: note
+      _isEnableElement: 1
+      _position: {x: -3.4800005, y: 3.645}
+    - _id: marmalade
+      _isEnableElement: 1
+      _position: {x: 5.129999, y: 3.2849998}
+    - _id: video
+      _isEnableElement: 1
+      _position: {x: 5.379999, y: 7.2949996}
+    - _id: candelabrum
+      _isEnableElement: 1
+      _position: {x: -2.9900007, y: 7.19}
+    - _id: rollers
+      _isEnableElement: 1
+      _position: {x: 4.574999, y: 4.49}
+  - Seconds: 10
+    _elementsContainer: {fileID: 1356856560049440240, guid: adeb5b0fbbf4617448d2c3f150873d79, type: 3}
+    LevelId: ThirdLevel
+    CountElementsToFindTogether: 1
+    elementConfigs:
+    - _id: video
+      _isEnableElement: 1
+      _position: {x: 5.379999, y: 7.2949996}
+    - _id: jumpingRope
+      _isEnableElement: 1
+      _position: {x: -2.2700005, y: 2.5249999}
+    - _id: note
+      _isEnableElement: 0
+      _position: {x: -3.4800005, y: 3.645}
+    - _id: marmalade
+      _isEnableElement: 0
+      _position: {x: 5.129999, y: 3.2849998}
+    - _id: candelabrum
+      _isEnableElement: 1
+      _position: {x: -2.9900007, y: 7.19}
+    - _id: rollers
+      _isEnableElement: 1
+      _position: {x: 4.574999, y: 4.49}
+  SceneName: FindingElementsScene
